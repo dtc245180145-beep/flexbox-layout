@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1>Website Flexbox</h1>
+            <p>Học thiết kế web responsive</p>
+        </header>
+
+        <nav class="nav">
+            <a href="#home">Trang chủ</a>
+            <a href="#content">Giới thiệu</a>
+            <a href="#news">Tin tức</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+
+        <div class="main-container">
+            <main class="content" id="content">
+                <h2>Nội dung chính</h2>
+                <p>
+                    Đây là khu vực hiển thị nội dung chính
+                    của trang web được xây dựng bằng CSS Flexbox.
+                </p>
+
+                <div class="article">
+                    <h3>Bài viết 1</h3>
+                    <p>
+                        Flexbox giúp sắp xếp các phần tử
+                        linh hoạt theo hàng hoặc cột.
+                    </p>
+                </div>
+
+                <div class="article">
+                    <h3>Bài viết 2</h3>
+                    <p>
+                        Media Queries giúp giao diện thích ứng
+                        với nhiều kích thước màn hình.
+                    </p>
+                </div>
+            </main>
+
+            <aside class="sidebar" id="news">
+                <h2>Sidebar</h2>
+                <p>Nội dung phụ</p>
+                <ul>
+                    <li>Tin tức mới</li>
+                    <li>Bài viết nổi bật</li>
+                    <li>Thông báo</li>
+                </ul>
+            </aside>
+        </div>
+
+        <footer class="footer" id="contact">
+            <p>&copy; 2026 - Website thực hành CSS Flexbox</p>
+        </footer>
+
+    </div>
+</body>
+</html>
